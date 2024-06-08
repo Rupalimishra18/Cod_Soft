@@ -1,0 +1,38 @@
+
+ body{
+    
+    background: purple;
+    
+ }
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+
+}
+.wrap{
+    width: 450px;
+    margin: auto;
+    height: auto; 
+    background: darkblue;
+    padding: 20px;
+} 
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    font-size:23px;
+    font-weight: bold;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+input[type=button] {
+    width: 90px;
+    padding: 10px;
+    font-size: 23px;
+    font-weight; bold;
+    border-radius: 6px;
+
+}
+#del{
+width: 100%;
+}

@@ -1,0 +1,79 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+header{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.8bQP-WF6Tc-b_BFe9vJ0tgHaEK&pid=Api&P=0&h=180");
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border:2px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:6px;
+}
+ul li a:hover{
+    background-color: black;
+    color;black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+.logo img{
+    margin-top: 40px;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+.center_text{
+    margin-top: 150px;
+    margin-left: 320px;
+}
+h1{
+    color: black;
+    font-size: 50px,
+} 
+p{
+    color: white;
+    font-size: 20px;
+    padding: 20px
+}
+#bt1{
+    border:1px solid black;
+    color: black;
+    padding:6px;
+    text-decoration: none;
+}
+#bt2{
+    border:1px solid black;
+    color: black;
+    padding:6px;
+    text-decoration: none;
+}
+#bt1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
